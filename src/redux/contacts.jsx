@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { addContact, deleteContact, fetchContacts } from './operations';
+import { addContact, deleteContact, fetchContacts } from '../redux/operations';
 
 const handlePending = state => {
   state.isLoading = true;
@@ -32,7 +32,9 @@ const contactsSlice = createSlice({
         const index = state.contacts.findIndex(
           contact => contact.id === action.payload.id
         );
-        state.contacts.splice(index, 1);
+        if (index !== -1) {
+          state.contacts.splice(index, 1);
+        }
       })
       .addMatcher(action => action.type.endsWith('pending'), handlePending)
       .addMatcher(action => action.type.endsWith('rejected'), handleRejected)
