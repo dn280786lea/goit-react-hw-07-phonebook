@@ -12,8 +12,8 @@ export const ContactForm = () => {
     e.preventDefault();
 
     const formData = {
-      name: e.target.name.value,
-      phone: e.target.number.value,
+      name: e.target.elements.name.value,
+      phone: e.target.elements.number.value,
     };
 
     const isExist = Array.isArray(contacts)
