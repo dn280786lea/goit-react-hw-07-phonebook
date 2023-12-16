@@ -10,6 +10,7 @@ const Filter = () => {
   const handleFilter = e => {
     dispatch(setStatusFilter(e.target.value));
   };
+
   return (
     <div>
       <label className="filter-contact">Find contacts by name </label>
@@ -18,6 +19,7 @@ const Filter = () => {
         value={filter}
         onChange={handleFilter}
         placeholder="Find contacts by name"
+        id="outlined-search"
       />
     </div>
   );
