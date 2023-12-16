@@ -3,7 +3,6 @@ import { contactsReducer } from '../redux/contacts';
 import { filtersReducer } from '../redux/filtersSlice';
 import {
   persistStore,
-  persistReducer,
   FLUSH,
   REHYDRATE,
   PAUSE,
