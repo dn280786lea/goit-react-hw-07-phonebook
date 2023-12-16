@@ -5,12 +5,12 @@
 }
 .phonebook-form {
   display: flex;
-  margin: 15px;
+  margin-top: 10px;
 }
 
 .namebtn {
-  margin-left: 50px;
-  background-color: purple;
+  margin-left: 65px;
+  background-color: green;
   color: black;
   border-radius: 10px;
   font-size: 12px;
@@ -20,7 +20,7 @@
   -moz-box-pack: justify;
 }
 .namebtn:hover {
-  background-color: purple;
+  background-color: green;
   color: white;
 }
 .phonebook-name {
@@ -37,4 +37,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 20px;
+}
+.form-title {
+  padding-right: 5px;
 }

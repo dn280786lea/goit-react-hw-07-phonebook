@@ -6,8 +6,8 @@ export const ContactItem = ({ name, number, id }) => {
   const dispatch = useDispatch();
   return (
     <div className="contact-item" key={id}>
-      <span className="item">{name}: </span>
-      <span className="item">{number}: </span>
+      <span className="item">{name} </span>
+      <span className="item">{number} </span>
       <button
         className="deletebtn"
         type="button"

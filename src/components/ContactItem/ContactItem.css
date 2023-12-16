@@ -1,6 +1,6 @@
 .deletebtn {
   margin-left: 20px;
-  background-color: purple;
+  background-color: green;
   color: black;
   border-radius: 10px;
   font-size: 12px;
@@ -10,7 +10,7 @@
 }
 
 .deletebtn:hover {
-  background-color: purple;
+  background-color: green;
   color: white;
 }
 
