@@ -35,7 +35,6 @@ export const ContactForm = () => {
   return (
     <div className="phonebook-form">
       <form onSubmit={handleFormSubmit}>
-        {/* Add your form fields here */}
         <label htmlFor="name">Name:</label>
         <input type="text" name="name" required />
         <label htmlFor="number">Number:</label>
