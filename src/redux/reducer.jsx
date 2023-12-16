@@ -1,7 +1,7 @@
-import { filterReducer } from './filter/filterSlice';
-import { contactsReducer } from './contacts/contactsSlice';
+import { filtersReducer } from './filtersSlice';
+import { contactsReducer } from './contacts';
 
 export const reducer = {
   contacts: contactsReducer,
-  filter: filterReducer,
+  filter: filtersReducer,
 };
