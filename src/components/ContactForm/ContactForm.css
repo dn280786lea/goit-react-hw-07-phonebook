@@ -5,6 +5,7 @@
 }
 .phonebook-form {
   display: flex;
+  margin: 15px;
 }
 
 .namebtn {

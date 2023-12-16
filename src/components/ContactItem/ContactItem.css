@@ -17,10 +17,10 @@
 .item {
   color: black;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
   line-height: 1.5;
-  width: 150px;
+  width: 250px;
 }
 .contact-item {
   display: flex;
