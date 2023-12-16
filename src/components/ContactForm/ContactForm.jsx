@@ -38,7 +38,7 @@ export const ContactForm = () => {
         <label className="form-title" htmlFor="name">
           Name:
         </label>
-        <input type="text" name="name" required />
+        <input className="text" type="text" name="name" required />
         <label className="form-title" htmlFor="number">
           Number:
         </label>

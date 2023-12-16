@@ -9,7 +9,7 @@
 }
 
 .namebtn {
-  margin-left: 65px;
+  margin-left: 58px;
   background-color: green;
   color: black;
   border-radius: 10px;
@@ -18,10 +18,13 @@
   line-height: 20px;
   width: 80px;
   -moz-box-pack: justify;
+  box-shadow: 10px 5px 5px rgb(134, 218, 148);
+  border: none;
 }
 .namebtn:hover {
   background-color: green;
   color: white;
+  box-shadow: 10px 5px 5px rgb(134, 218, 148);
 }
 .phonebook-name {
   font-size: 18px;
@@ -40,4 +43,7 @@
 }
 .form-title {
   padding-right: 5px;
+}
+.text {
+  margin-right: 10px;
 }

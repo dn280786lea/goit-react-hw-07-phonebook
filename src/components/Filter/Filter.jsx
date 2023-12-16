@@ -20,6 +20,10 @@ const Filter = () => {
         onChange={handleFilter}
         placeholder="Find contacts by name"
         id="outlined-search"
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition="transition"
       />
     </div>
   );
