@@ -1,0 +1,39 @@
+.phonebook-title {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 20px;
+}
+.phonebook-form {
+  display: flex;
+}
+
+.namebtn {
+  margin-left: 50px;
+  background-color: purple;
+  color: black;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 80px;
+  -moz-box-pack: justify;
+}
+.namebtn:hover {
+  background-color: purple;
+  color: white;
+}
+.phonebook-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.phonebook-name,
+.phonebook-number {
+  padding-right: 5px;
+}
+.phonebook-number {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}

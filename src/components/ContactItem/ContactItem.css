@@ -1,0 +1,32 @@
+.deletebtn {
+  margin-left: 20px;
+  background-color: purple;
+  color: black;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 80px;
+}
+
+.deletebtn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.item {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  line-height: 1.5;
+  width: 150px;
+}
+.contact-item {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 8px;
+}
