@@ -16,7 +16,7 @@ const handleFulfilled = state => {
 const contactsSlice = createSlice({
   name: 'contacts',
   initialState: {
-    contacts: [],
+    items: [],
     isLoading: false,
     error: null,
   },
