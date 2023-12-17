@@ -1,15 +1,17 @@
 .contact-form {
   margin: 0 auto;
   background-color: rgb(157, 222, 162);
-  width: 600px;
+  max-width: 350px;
   height: auto;
   box-shadow: 10px 5px 5px rgb(134, 218, 148);
-  padding: 40px;
   margin-top: 40px;
+  box-sizing: border-box;
+  padding: 15px;
 }
 .contact {
-  padding: 10px 0 10px 0;
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
